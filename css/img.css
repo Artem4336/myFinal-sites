@@ -1,0 +1,61 @@
+body{
+
+	background-color: lightblue;
+	background-image: url(https://www.format.com/wp-content/uploads/jjjjjohn-skeleton-4.gif);
+background-size: 200px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 100% 100%;
+
+}
+p{
+	color: lime;
+	font-size: 1in;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGuTboKmMCqLY3hlNJYtQzLUckTosF9xzcA&usqp=CAU) ;
+background-size: cover;
+}
+div{
+	width: 500px;
+	height: 500px;
+	
+}
+.d1{
+	background-image: url()
+    background-size:cover;
+
+}
+.img1{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 20px 20px 50px grey;
+}
+.img2{
+	width: 500px;
+	border: ridge 20px purple;
+	morgin: 40px;
+}
+.img3{
+	width: 400px;
+	border: solid 30px;
+	border-image: linear-gradient(purple, darkorchid) 30;
+	morgin: 40px;
+}
+.img4{
+	width: 500px;
+	border: solid 30px;
+	border-image: linear-gradient(orange, yellow) 30;
+	morgin: 40px;
+}
+.img5{
+	width: 400px;
+	box-shadow: 40px 40px 70px black;
+	morgin: 40px;
+}
+.img6{
+	width: 800px;
+	morgin: 40px;
+	display: block;
+	border-radius: 50%;
+}

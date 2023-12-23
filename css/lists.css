@@ -1,0 +1,32 @@
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&family=Pixelify+Sans&display=swap');
+body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	background-color: indigo;
+	color: orange;
+	font-family: 'Acme', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Pixelify Sans', cursive;
+}
+ul,ol{
+	font-size: 24px;
+	color: purple;
+}
+.l1 li{
+	padding-left: 10px;
+
+}
+.l1 li::marker{
+	color: black;
+	font-size: 1.55em;
+}
+.l2 li::marker{
+	color: blue;
+	font-size: 1.4em;
+}
+ol{
+	margin-left: 50px;
+}

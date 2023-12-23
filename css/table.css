@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+body{
+	background-color: lightgreen;
+}
+p{
+	text-align: center;
+	font-size: 50px;
+	color: greenyellow;
+	background-color: green;
+	font-family: Rubik+Bubbles, cursive;
+}
+
+table{
+	border: double 5px purple;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: separate;
+	margin: auto;
+}
+th, td{
+	border: solid 2px purple;
+	width: 25%;
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url(https://art.pixilart.com/71406ad5064e4f0.gif);
+	font-weight: 700;
+	color: indigo;
+	font-size: 1.2em;
+}
+tr:nth-child(even){
+	background-color: lightpink;
+}
+tr:nth-child(odd){
+	background-color: lightblue;
+}
+.ex1{
+	border: dashed 5px red;
+	text-align: right;
+	vertical-align: bottom;
+}
+caption{
+	font-size: 48px;
+	background: linear-gradient(to left, red,orange,yellow,green,indigo,purple);
+	text-transform: uppercase;
+	color: gold;
+}

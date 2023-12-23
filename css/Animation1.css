@@ -1,0 +1,234 @@
+body{
+	background-color: orange;
+}
+p{
+	font-size: 50px;
+	color: darkblue;
+	background-color: green;
+}
+div{
+	width: 100px;
+	height: 100px;
+}
+.d1{
+	background-color: lime;
+	animation-name: example1;
+	animation-duration: 5s;
+
+}
+@keyframes example1{
+	from{background-color: lime}
+	to{background-color: hotpink}
+}
+.d2{
+	background-color: lime;
+	animation-name: example2;
+	animation-duration: 5s;
+}
+@keyframes example2{
+	0%{background-color: yellow}
+	25%{background-color: blue}
+	50%{background-color: pink}
+	75%{background-color: blue}
+	100%{background-color: yellow}
+}
+.d3{
+	background-color: lime;
+	animation-name: example3;
+	position: relative;
+	animation-duration: 10s;
+	animation-duration: 5s;
+}
+@keyframes example3{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: red; left: 200px; top: 200px;}
+	75%{background-color: blue; left: 0px; top: 200px;}
+	100%{background-color: yellow; left: 0px; top: 0px;}
+}
+.d4{
+	background-color: lime;
+	animation-name: example4;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+}
+@keyframes example4{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: red; left: 200px; top: 200px;}
+	75%{background-color: blue; left: 0px; top: 200px;}
+	100%{background-color: yellow; left: 0px; top: 0px;}
+}
+.d5{
+	background-color: lime;
+	animation-name: example5;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+}
+@keyframes example5{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d6{
+	background-color: lime;
+	animation-name: example6;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+	animation-iteration-count: 3;
+}
+@keyframes example6{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d7{
+	background-color: lime;
+	animation-name: example7;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+	animation-iteration-count: infinite;
+}
+@keyframes example7{
+	0%{background-color: lime; left: 100px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d8{
+	background-color: lime;
+	animation-name: example8;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+	animation-direction: reverse;
+}
+@keyframes example8{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 100px;}
+}
+.d9{
+	background-color: lime;
+	animation-name: example9;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes example9{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 200px; top: 0px;}
+}
+.d10{
+	background-color: lime;
+	animation-name: example10;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes example10{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d11{
+	background-color: lime;
+	animation-name: example11;
+	position: relative;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+}
+@keyframes example11{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d12{
+	background-color: lime;
+	animation-name: example12;
+	position: relative;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+@keyframes example12{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d13{
+	background-color: lime;
+	animation-name: example13;
+	position: relative;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
+}
+@keyframes example13{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d14{
+	background-color: lime;
+	animation-name: example14;
+	position: relative;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-out;
+}
+@keyframes example14{
+	0%{background-color: lime; left: 0px; top: 0px;}
+	25%{background-color: hotpink; left: 200px; top: 0px;}
+	50%{background-color: orange; left: 200px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 0px; top: 0px;}
+}
+.d15{
+	background-color: lime;
+	animation-name: example15;
+	position: relative;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: backwards;
+	font-size: 25px;
+}
+@keyframes example15{
+	0%{background-color: lime; left: 1350px; top: 0px;}
+	25%{background-color: hotpink; left: 1350px; top: 0px;}
+	50%{background-color: orange; left: 1350px; top: 200px;}
+	75%{background-color: palevioletred; left: 0px; top: 200px;}
+	100%{background-color: aliceblue; left: 1350px; top: 0px;}
+}
